@@ -104,6 +104,7 @@ void* P1_thread(void *) {
 		cout << "P1 waits Sig21\n";
 		pthread_cond_wait(&Sig21, &M_Sig21);
 		cout << "P1 got Sig21\n";
+		cout << "P1 got Sig21\n";
 		pthread_mutex_unlock(&M_Sig21);
 
 		cout << "P1 use CR2\n";
